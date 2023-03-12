@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.DataAccess\\ToDoList.DataAccess.csproj": {}
+    "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.DataAccess\\ToDoList.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.DataAccess\\ToDoList.DataAccess.csproj": {
+    "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Common\\ToDoList.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.DataAccess\\ToDoList.DataAccess.csproj",
-        "projectName": "ToDoList.DataAccess",
-        "projectPath": "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.DataAccess\\ToDoList.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\MIHellal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.DataAccess\\obj\\",
+        "projectUniqueName": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Common\\ToDoList.Common.csproj",
+        "projectName": "ToDoList.Common",
+        "projectPath": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Common\\ToDoList.Common.csproj",
+        "packagesPath": "C:\\Users\\Ilyesh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MIHellal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ilyesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,70 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.Entities\\ToDoList.Entities.csproj": {
-                "projectPath": "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.Entities\\ToDoList.Entities.csproj"
+              "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Entities\\ToDoList.Entities.csproj": {
+                "projectPath": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Entities\\ToDoList.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.DataAccess\\ToDoList.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.DataAccess\\ToDoList.DataAccess.csproj",
+        "projectName": "ToDoList.DataAccess",
+        "projectPath": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.DataAccess\\ToDoList.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Ilyesh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ilyesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Common\\ToDoList.Common.csproj": {
+                "projectPath": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Common\\ToDoList.Common.csproj"
+              },
+              "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Entities\\ToDoList.Entities.csproj": {
+                "projectPath": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Entities\\ToDoList.Entities.csproj"
               }
             }
           }
@@ -52,11 +110,17 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.*, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.0.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.*, )"
             }
           },
           "imports": [
@@ -75,25 +139,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.Entities\\ToDoList.Entities.csproj": {
+    "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Entities\\ToDoList.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.Entities\\ToDoList.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Entities\\ToDoList.Entities.csproj",
         "projectName": "ToDoList.Entities",
-        "projectPath": "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.Entities\\ToDoList.Entities.csproj",
-        "packagesPath": "C:\\Users\\MIHellal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.Entities\\obj\\",
+        "projectPath": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Entities\\ToDoList.Entities.csproj",
+        "packagesPath": "C:\\Users\\Ilyesh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MIHellal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ilyesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -134,7 +194,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

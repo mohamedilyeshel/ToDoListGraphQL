@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bn9t0UfK4WQGQz3SHPcz4q5JTHVFrP37y9mt7bYbhpxpq6GA1IAYfm7Qvc6mgAWygwPGgdbSv4Juzl42donGnw==",
+  "dgSpecHash": "Z6gps9dMOcrRYCbE0QC8OxpQV6h/hQZRMX68MR20WbYPasViXKQaefYl2Q7THnnfKfnH7+8I68hsWaF3fyfA5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MIHellal\\source\\repos\\ToDoList\\ToDoList.Entities\\ToDoList.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Ilyesh\\Desktop\\ToDoListGraphQL\\ToDoList.Entities\\ToDoList.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

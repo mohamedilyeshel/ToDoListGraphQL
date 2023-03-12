@@ -1,0 +1,12 @@
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\bin\Debug\net6.0\ToDoList.Entities.deps.json
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\bin\Debug\net6.0\ToDoList.Entities.dll
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\bin\Debug\net6.0\ToDoList.Entities.pdb
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\obj\Debug\net6.0\ToDoList.Entities.csproj.AssemblyReference.cache
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\obj\Debug\net6.0\ToDoList.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\obj\Debug\net6.0\ToDoList.Entities.AssemblyInfoInputs.cache
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\obj\Debug\net6.0\ToDoList.Entities.AssemblyInfo.cs
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\obj\Debug\net6.0\ToDoList.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\obj\Debug\net6.0\ToDoList.Entities.dll
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\obj\Debug\net6.0\refint\ToDoList.Entities.dll
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\obj\Debug\net6.0\ToDoList.Entities.pdb
+C:\Users\Ilyesh\Desktop\ToDoListGraphQL\ToDoList.Entities\obj\Debug\net6.0\ref\ToDoList.Entities.dll

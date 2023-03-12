@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ToDoList.Web.Graphql\ToDoList.Web.Graphql.csproj" />
-  </ItemGroup>
-
 </Project>
